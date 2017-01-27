@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Enemy Paddle0.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{64,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,20}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{64,20}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>Enemy Paddle1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{64,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,20}</string>
+                <key>textureRect</key>
+                <string>{{64,0},{64,20}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>Enemy Paddle2.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{64,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,20}</string>
+                <key>textureRect</key>
+                <string>{{0,20},{64,20}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>Enemy Paddle3.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{64,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,20}</string>
+                <key>textureRect</key>
+                <string>{{64,20},{64,20}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>Enemy Paddle4.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{64,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,20}</string>
+                <key>textureRect</key>
+                <string>{{0,40},{64,20}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>realTextureFileName</key>
+            <string>Enemy Paddle.png</string>
+            <key>size</key>
+            <string>{128,60}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:3f6d1ec0154db381f39256f5108c3beb:64eaa8ffc5ed593a3546d8d5b831eb93:9b70bb20a640435eec83bd24ee24f365$</string>
+            <key>textureFileName</key>
+            <string>Enemy Paddle.png</string>
+        </dict>
+    </dict>
+</plist>
