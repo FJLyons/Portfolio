@@ -1,0 +1,32 @@
+20 shapes:
+
+random: size 		== 	25 and 50
+random: position 	== 	1280 x 720 - size
+random: velocity 	== 	-2.5 to +2.5
+random: shape 		== 	triangles || squares
+Rotation: 		== 	1 / 60 times per refresh
+
+Frame Optimisation:
+
+High:
+Quad tree    > circle check > SAT check    > SAT resolve 	====	Avg: 231.800 	- Min: 124 	- Max: 477
+Quad tree    > circle check > SAT check    > Circle resolve 	====	Avg: 288.103 	- Min: 182 	- Max: 500
+
+Quad tree    >  SAT check   > SAT resolve 			====	Avg: 5.818 	- Min: 2 	- Max: 14
+Quad tree    >  SAT check   > Circle resolve 			====	Avg: 12.953 	- Min: 11 	- Max: 14
+Quad tree    >  SAT check		 			====	Avg: 12.466 	- Min: 5 	- Max: 15
+
+
+Medium:
+circle check > SAT check    > SAT resolve 		 	====	Avg: 235.700 	- Min: 138 	- Max: 298
+circle check > SAT check    > Circle resolve 		 	====	Avg: 342.654 	- Min: 207 	- Max: 510
+circle check > SAT check 				 	====	Avg: 131.620 	- Min: 73 	- Max: 194
+
+circle check > Circle resolve 				 	====	Avg: 1010.386 	- Min: 974 	- Max: 1043
+circle check							====	Avg: 302.162 	- Min: 205 	- Max: 380
+
+
+Low:
+SAT check    > SAT resolve 				 	====	Avg: 15.133 	- Min: 13 	- Max: 17
+SAT check    > Circle resolve 				 	====	Avg: 15.529 	- Min: 15 	- Max: 16
+SAT check 						 	====	Avg: 13.286 	- Min: 11 	- Max: 15

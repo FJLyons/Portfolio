@@ -1,0 +1,17 @@
+﻿  Triangles.cpp
+  Squares.cpp
+  SATCollisions.cpp
+  QuadTree.cpp
+  Objects.cpp
+c:\users\gameuser\desktop\sat submission\sat\sfml base\objects.cpp(13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\desktop\sat submission\sat\sfml base\objects.cpp(37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\desktop\sat submission\sat\sfml base\objects.cpp(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\desktop\sat submission\sat\sfml base\objects.cpp(98): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Main.cpp
+c:\users\gameuser\desktop\sat submission\sat\sfml base\main.cpp(54): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\gameuser\desktop\sat submission\sat\sfml base\main.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\desktop\sat submission\sat\sfml base\main.cpp(69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CollisionDetection.cpp
+  Generating Code...
+  SFML Base.vcxproj -> C:\Users\gameuser\Desktop\SAT Submission\SAT\x64\Debug\SFML Base.exe
+  SFML Base.vcxproj -> C:\Users\gameuser\Desktop\SAT Submission\SAT\x64\Debug\SFML Base.pdb (Full PDB)

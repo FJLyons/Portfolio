@@ -1,0 +1,16 @@
+{   
+	"settings" : 
+	{
+		"m_TVGlow" :  "OptionsScene/TV Glow.png",
+		"m_tetrisTutorialFire" :  "OptionsScene/Press to fire.png",
+		"m_tetrisTutorialMove" :  "OptionsScene/Press to move.png",
+		"m_tetrisTimeLimit" : 120,
+		"m_breakoutTimeLimit" : 120,
+		"m_defaultTVGlow" : true,
+		"m_defaultTutorial" : false,
+		"m_defaultMusic" : true,
+		"m_paddlePlistFile" : "BreakoutScene/Animation/playerPlist.plist",
+		"m_enemyPlistFile" : "BreakoutScene/Animation/enemyPlist.plist"
+	}
+} 
+
