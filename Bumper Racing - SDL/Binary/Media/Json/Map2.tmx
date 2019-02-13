@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="80" tilewidth="64" tileheight="64" nextobjectid="405">
+ <tileset firstgid="1" name="backgroundSpritesheet" tilewidth="64" tileheight="64" tilecount="4" columns="4">
+  <image source="../Textures/BackgroundSprite.png" width="256" height="64"/>
+ </tileset>
+ <layer name="Background" width="100" height="80">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,
+1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,
+1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+1,1,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,
+1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,
+1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,
+1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,
+1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup color="#00ff00" name="Entities">
+  <object id="245" name="PlayerSolo" x="384" y="512" width="64" height="64"/>
+  <object id="246" name="PlayerSolo" x="6080" y="1152" width="64" height="64"/>
+  <object id="247" name="PlayerSolo" x="5440" y="4608" width="64" height="64"/>
+  <object id="248" name="PlayerSolo" x="320" y="4032" width="64" height="64"/>
+  <object id="252" name="Checkpoint" x="5888" y="1024" width="384" height="448">
+   <properties>
+    <property name="ID" value="1"/>
+   </properties>
+  </object>
+  <object id="257" name="Checkpoint" x="5184" y="4480" width="576" height="384">
+   <properties>
+    <property name="ID" value="2"/>
+   </properties>
+  </object>
+  <object id="259" name="Checkpoint" x="832" y="4672" width="512" height="320">
+   <properties>
+    <property name="ID" value="3"/>
+   </properties>
+  </object>
+  <object id="260" name="Checkpoint" x="128" y="384" width="512" height="320">
+   <properties>
+    <property name="ID" value="4"/>
+   </properties>
+  </object>
+  <object id="262" name="Checkpoint" x="4416" y="2944" width="442" height="322"/>
+  <object id="266" name="Flag" x="3776" y="2560" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup color="#00aaff" name="Waypoints">
+  <object id="269" name="0" type="1" x="353.333" y="512" width="64" height="64">
+   <properties>
+    <property name="data" type="int" value="0"/>
+    <property name="neighbour" value="[1]"/>
+    <property name="node" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="270" name="1" x="670" y="364" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[2]"/>
+    <property name="node" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="272" name="2" x="1019.52" y="310.424" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[3]"/>
+    <property name="node" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="273" name="3" x="1410.42" y="316.485" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[4,47]"/>
+    <property name="node" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="274" name="4" x="1604.36" y="580.121" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[5,47]"/>
+    <property name="node" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="276" name="5" x="1537.7" y="828.606" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[6]"/>
+    <property name="node" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="277" name="6" x="1471.03" y="1086.18" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[7]"/>
+    <property name="node" type="int" value="6"/>
+   </properties>
+  </object>
+  <object id="278" name="7" x="1398.3" y="1343.76" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[8,37]"/>
+    <property name="node" type="int" value="7"/>
+   </properties>
+  </object>
+  <object id="279" name="8" x="1228.61" y="1719.52" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[9,37,36]"/>
+    <property name="node" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="282" name="9" x="1122.55" y="2116.48" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[10,36]"/>
+    <property name="node" type="int" value="9"/>
+   </properties>
+  </object>
+  <object id="283" name="10" x="1089.21" y="2437.7" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[11]"/>
+    <property name="node" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="284" name="11" x="958.909" y="2755.88" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[12]"/>
+    <property name="node" type="int" value="11"/>
+   </properties>
+  </object>
+  <object id="285" name="12" x="674.061" y="2977.09" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[13, 20, 21]"/>
+    <property name="node" type="int" value="12"/>
+   </properties>
+  </object>
+  <object id="286" name="13" x="446.788" y="2822.55" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[14, 20]"/>
+    <property name="node" type="int" value="13"/>
+   </properties>
+  </object>
+  <object id="287" name="14" x="386.182" y="2510.42" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[15]"/>
+    <property name="node" type="int" value="14"/>
+   </properties>
+  </object>
+  <object id="288" name="15" x="322.545" y="2174.06" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[16]"/>
+    <property name="node" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="289" name="16" x="292.242" y="1858.91" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[17]"/>
+    <property name="node" type="int" value="16"/>
+   </properties>
+  </object>
+  <object id="290" name="17" x="251.515" y="1527.28" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[18]"/>
+    <property name="node" type="int" value="17"/>
+   </properties>
+  </object>
+  <object id="291" name="18" x="258.909" y="1152.85" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[19]"/>
+    <property name="node" type="int" value="18"/>
+   </properties>
+  </object>
+  <object id="296" name="19" x="274.061" y="792.242" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[0]"/>
+    <property name="node" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="297" name="20" x="349.818" y="3107.39" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[21,22]"/>
+    <property name="node" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="298" name="21" x="510.424" y="3319.52" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[22]"/>
+    <property name="node" type="int" value="21"/>
+   </properties>
+  </object>
+  <object id="299" name="22" x="289.212" y="3516.48" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[23]"/>
+    <property name="node" type="int" value="22"/>
+   </properties>
+  </object>
+  <object id="300" name="23" x="277.091" y="3819.52" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[24]"/>
+    <property name="node" type="int" value="23"/>
+   </properties>
+  </object>
+  <object id="308" name="24" x="577.091" y="3961.94" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[25]"/>
+    <property name="node" type="int" value="24"/>
+   </properties>
+  </object>
+  <object id="309" name="25" x="934.667" y="3889.21" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[26]"/>
+    <property name="node" type="int" value="25"/>
+   </properties>
+  </object>
+  <object id="310" name="26" x="1310.42" y="3816.48" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[27]"/>
+    <property name="node" type="int" value="26"/>
+   </properties>
+  </object>
+  <object id="311" name="27" x="1652.85" y="3692.24" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[28]"/>
+    <property name="node" type="int" value="27"/>
+   </properties>
+  </object>
+  <object id="313" name="28" x="1937.7" y="3907.39" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[29]"/>
+    <property name="node" type="int" value="28"/>
+   </properties>
+  </object>
+  <object id="314" name="29" x="1961.94" y="4255.88" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[30]"/>
+    <property name="node" type="int" value="29"/>
+   </properties>
+  </object>
+  <object id="307" name="30" x="1745.21" y="4554.55" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[31]"/>
+    <property name="node" type="int" value="30"/>
+   </properties>
+  </object>
+  <object id="306" name="31" x="1480.12" y="4719.52" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[32]"/>
+    <property name="node" type="int" value="31"/>
+   </properties>
+  </object>
+  <object id="305" name="32" type="3" x="1055.88" y="4795.27" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[33]"/>
+    <property name="node" type="int" value="32"/>
+   </properties>
+  </object>
+  <object id="304" name="33" x="792.242" y="4783.15" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[34]"/>
+    <property name="node" type="int" value="33"/>
+   </properties>
+  </object>
+  <object id="303" name="34" x="525.576" y="4686.18" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[35]"/>
+    <property name="node" type="int" value="34"/>
+   </properties>
+  </object>
+  <object id="302" name="35" x="331.636" y="4431.64" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[24,124]"/>
+    <property name="node" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="281" name="36" x="1404.36" y="1983.15" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[37,38]"/>
+    <property name="node" type="int" value="36"/>
+   </properties>
+  </object>
+  <object id="280" name="37" x="1540.73" y="1661.94" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[38]"/>
+    <property name="node" type="int" value="37"/>
+   </properties>
+  </object>
+  <object id="352" name="38" x="1870" y="1680" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[39]"/>
+    <property name="node" type="int" value="38"/>
+   </properties>
+  </object>
+  <object id="353" name="39" x="2243.03" y="1605.03" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[40]"/>
+    <property name="node" type="int" value="39"/>
+   </properties>
+  </object>
+  <object id="354" name="40" x="2538" y="1854.79" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[41]"/>
+    <property name="node" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="347" name="41" x="2710.42" y="2131.64" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[42]"/>
+    <property name="node" type="int" value="41"/>
+   </properties>
+  </object>
+  <object id="348" name="42" x="2631.64" y="2434.67" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[43]"/>
+    <property name="node" type="int" value="42"/>
+   </properties>
+  </object>
+  <object id="349" name="43" x="2516.48" y="2719.52" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[44]"/>
+    <property name="node" type="int" value="43"/>
+   </properties>
+  </object>
+  <object id="350" name="44" x="2371.03" y="3010.42" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[45]"/>
+    <property name="node" type="int" value="44"/>
+   </properties>
+  </object>
+  <object id="351" name="45" x="2180.12" y="3261.94" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[46]"/>
+    <property name="node" type="int" value="45"/>
+   </properties>
+  </object>
+  <object id="312" name="46" x="1916.48" y="3543.76" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[27,28]"/>
+    <property name="node" type="int" value="46"/>
+   </properties>
+  </object>
+  <object id="275" name="47" x="1792.24" y="313.455" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[48]"/>
+    <property name="node" type="int" value="47"/>
+   </properties>
+  </object>
+  <object id="360" name="48" x="2116.48" y="325.576" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[49]"/>
+    <property name="node" type="int" value="48"/>
+   </properties>
+  </object>
+  <object id="361" name="49" x="2483.15" y="328.606" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[50]"/>
+    <property name="node" type="int" value="49"/>
+   </properties>
+  </object>
+  <object id="362" name="50" x="2798.3" y="449.818" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[51]"/>
+    <property name="node" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="365" name="51" x="3036.24" y="645.515" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[52]"/>
+    <property name="node" type="int" value="51"/>
+   </properties>
+  </object>
+  <object id="359" name="52" x="2998.3" y="958.909" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[53,55]"/>
+    <property name="node" type="int" value="52"/>
+   </properties>
+  </object>
+  <object id="358" name="53" x="2798.3" y="1231.64" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[54,55]"/>
+    <property name="node" type="int" value="53"/>
+   </properties>
+  </object>
+  <object id="356" name="54" x="2537.7" y="1443.76" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[39,40,56]"/>
+    <property name="node" type="int" value="54"/>
+   </properties>
+  </object>
+  <object id="357" name="55" x="3007.39" y="1455.88" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[56,54,57]"/>
+    <property name="node" type="int" value="55"/>
+   </properties>
+  </object>
+  <object id="355" name="56" x="2807.39" y="1719.52" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[57,40,41]"/>
+    <property name="node" type="int" value="56"/>
+   </properties>
+  </object>
+  <object id="346" name="57" x="3004.36" y="1986.18" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[58,41]"/>
+    <property name="node" type="int" value="57"/>
+   </properties>
+  </object>
+  <object id="345" name="58" x="3228.61" y="2155.88" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[59]"/>
+    <property name="node" type="int" value="58"/>
+   </properties>
+  </object>
+  <object id="344" name="59" x="3464.97" y="2340.73" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[60]"/>
+    <property name="node" type="int" value="59"/>
+   </properties>
+  </object>
+  <object id="341" name="60" x="3731.64" y="2528.61" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[61]"/>
+    <property name="node" type="int" value="60"/>
+   </properties>
+  </object>
+  <object id="343" name="61" x="3980.12" y="2707.39" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[62]"/>
+    <property name="node" type="int" value="61"/>
+   </properties>
+  </object>
+  <object id="342" name="62" x="4191.58" y="2937.45" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[63,64]"/>
+    <property name="node" type="int" value="62"/>
+   </properties>
+  </object>
+  <object id="340" name="63" x="4297.82" y="3130.72" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[64]"/>
+    <property name="node" type="int" value="63"/>
+   </properties>
+  </object>
+  <object id="339" name="64" x="4101.33" y="3304.36" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[65]"/>
+    <property name="node" type="int" value="64"/>
+   </properties>
+  </object>
+  <object id="338" name="65" x="3861.94" y="3446.79" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[66]"/>
+    <property name="node" type="int" value="65"/>
+   </properties>
+  </object>
+  <object id="337" name="66" x="3538.61" y="3561.21" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[67]"/>
+    <property name="node" type="int" value="66"/>
+   </properties>
+  </object>
+  <object id="322" name="67" x="3232.12" y="3707.94" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[68]"/>
+    <property name="node" type="int" value="67"/>
+   </properties>
+  </object>
+  <object id="321" name="68" x="2959.76" y="3875.58" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[69,73]"/>
+    <property name="node" type="int" value="68"/>
+   </properties>
+  </object>
+  <object id="318" name="69" x="2613.45" y="4016.48" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[70,71]"/>
+    <property name="node" type="int" value="69"/>
+   </properties>
+  </object>
+  <object id="315" name="70" x="2216.48" y="4061.94" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[28,29]"/>
+    <property name="node" type="int" value="70"/>
+   </properties>
+  </object>
+  <object id="316" name="71" x="2428.61" y="4243.76" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[70,72,29]"/>
+    <property name="node" type="int" value="71"/>
+   </properties>
+  </object>
+  <object id="317" name="72" x="2155.88" y="4461.94" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[29,30]"/>
+    <property name="node" type="int" value="72"/>
+   </properties>
+  </object>
+  <object id="320" name="73" x="2855.88" y="4249.82" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[74,75,71,69]"/>
+    <property name="node" type="int" value="73"/>
+   </properties>
+  </object>
+  <object id="319" name="74" x="2677.09" y="4486.18" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[75,72,71]"/>
+    <property name="node" type="int" value="74"/>
+   </properties>
+  </object>
+  <object id="323" name="75" x="3040.73" y="4534.67" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[76]"/>
+    <property name="node" type="int" value="75"/>
+   </properties>
+  </object>
+  <object id="324" name="76" x="3428.61" y="4649.82" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[77]"/>
+    <property name="node" type="int" value="76"/>
+   </properties>
+  </object>
+  <object id="325" name="77" x="3843.76" y="4734.67" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[78]"/>
+    <property name="node" type="int" value="77"/>
+   </properties>
+  </object>
+  <object id="326" name="78" x="4289.21" y="4789.21" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[79]"/>
+    <property name="node" type="int" value="78"/>
+   </properties>
+  </object>
+  <object id="327" name="79" x="4679.03" y="4805.39" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[80]"/>
+    <property name="node" type="int" value="79"/>
+   </properties>
+  </object>
+  <object id="328" name="80" x="5058.91" y="4746.79" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[81]"/>
+    <property name="node" type="int" value="80"/>
+   </properties>
+  </object>
+  <object id="404" name="81" x="5184" y="4418" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[82]"/>
+    <property name="node" type="int" value="81"/>
+   </properties>
+  </object>
+  <object id="332" name="82" x="5188.55" y="4094.61" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[83]"/>
+    <property name="node" type="int" value="82"/>
+   </properties>
+  </object>
+  <object id="333" name="83" x="5082.85" y="3815.03" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[84]"/>
+    <property name="node" type="int" value="83"/>
+   </properties>
+  </object>
+  <object id="334" name="84" x="4966.61" y="3552.48" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[85]"/>
+    <property name="node" type="int" value="84"/>
+   </properties>
+  </object>
+  <object id="336" name="85" x="4874" y="3290" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[86,87]"/>
+    <property name="node" type="int" value="85"/>
+   </properties>
+  </object>
+  <object id="335" name="86" type="5" x="4610" y="3074" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[62,63,87]"/>
+    <property name="node" type="int" value="86"/>
+   </properties>
+  </object>
+  <object id="393" name="87" x="4902.24" y="2988.36" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[88]"/>
+    <property name="node" type="int" value="87"/>
+   </properties>
+  </object>
+  <object id="392" name="88" x="5122.55" y="2752.85" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[89]"/>
+    <property name="node" type="int" value="88"/>
+   </properties>
+  </object>
+  <object id="390" name="89" x="5186.18" y="2428.61" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[90,112]"/>
+    <property name="node" type="int" value="89"/>
+   </properties>
+  </object>
+  <object id="387" name="90" x="5204.12" y="1915.88" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[91,113]"/>
+    <property name="node" type="int" value="90"/>
+   </properties>
+  </object>
+  <object id="388" name="91" x="4977.64" y="1614.67" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[92]"/>
+    <property name="node" type="int" value="91"/>
+   </properties>
+  </object>
+  <object id="389" name="92" x="4801.33" y="1283.15" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[93]"/>
+    <property name="node" type="int" value="92"/>
+   </properties>
+  </object>
+  <object id="376" name="93" x="4676" y="1004" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[94]"/>
+    <property name="node" type="int" value="93"/>
+   </properties>
+  </object>
+  <object id="373" name="94" x="4405.45" y="862.424" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[95,96]"/>
+    <property name="node" type="int" value="94"/>
+   </properties>
+  </object>
+  <object id="371" name="95" x="4226.67" y="628" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[96,97,98]"/>
+    <property name="node" type="int" value="95"/>
+   </properties>
+  </object>
+  <object id="370" name="96" x="4020" y="808" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[100]"/>
+    <property name="node" type="int" value="96"/>
+   </properties>
+  </object>
+  <object id="368" name="97" x="3987.21" y="433.333" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[98,99]"/>
+    <property name="node" type="int" value="97"/>
+   </properties>
+  </object>
+  <object id="367" name="98" x="3707.39" y="628.606" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[99,100]"/>
+    <property name="node" type="int" value="98"/>
+   </properties>
+  </object>
+  <object id="369" name="99" x="3384.73" y="532.121" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[100,51,50]"/>
+    <property name="node" type="int" value="99"/>
+   </properties>
+  </object>
+  <object id="366" name="100" x="3337.7" y="789.212" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[51,52]"/>
+    <property name="node" type="int" value="100"/>
+   </properties>
+  </object>
+  <object id="330" name="101" x="5440.42" y="4344.18" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[102,82,81,103]"/>
+    <property name="node" type="int" value="101"/>
+   </properties>
+  </object>
+  <object id="329" name="102" type="2" x="5434.67" y="4637.7" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[103,81,80]"/>
+    <property name="node" type="int" value="102"/>
+   </properties>
+  </object>
+  <object id="401" name="103" x="5749.82" y="4537.7" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[104]"/>
+    <property name="node" type="int" value="103"/>
+   </properties>
+  </object>
+  <object id="400" name="104" x="6001.33" y="4422.55" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[105]"/>
+    <property name="node" type="int" value="104"/>
+   </properties>
+  </object>
+  <object id="399" name="105" x="6137.7" y="4158.91" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[106]"/>
+    <property name="node" type="int" value="105"/>
+   </properties>
+  </object>
+  <object id="398" name="106" x="6177.09" y="3807.39" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[107]"/>
+    <property name="node" type="int" value="106"/>
+   </properties>
+  </object>
+  <object id="397" name="107" x="6064.97" y="3443.76" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[108]"/>
+    <property name="node" type="int" value="107"/>
+   </properties>
+  </object>
+  <object id="396" name="108" x="5869.64" y="3149.03" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[109]"/>
+    <property name="node" type="int" value="108"/>
+   </properties>
+  </object>
+  <object id="395" name="109" x="5648.91" y="2949.15" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[110,111]"/>
+    <property name="node" type="int" value="109"/>
+   </properties>
+  </object>
+  <object id="394" name="110" x="5406.79" y="2882.82" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[88,87,111]"/>
+    <property name="node" type="int" value="110"/>
+   </properties>
+  </object>
+  <object id="391" name="111" x="5477.09" y="2567" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[89,88,112]"/>
+    <property name="node" type="int" value="111"/>
+   </properties>
+  </object>
+  <object id="386" name="112" x="5446" y="2185" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[113,90]"/>
+    <property name="node" type="int" value="112"/>
+   </properties>
+  </object>
+  <object id="385" name="113" x="5698" y="1855" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[114]"/>
+    <property name="node" type="int" value="113"/>
+   </properties>
+  </object>
+  <object id="384" name="114" x="6014" y="1603" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[115]"/>
+    <property name="node" type="int" value="114"/>
+   </properties>
+  </object>
+  <object id="383" name="115" type="1" x="6078" y="1219" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[116]"/>
+    <property name="node" type="int" value="115"/>
+   </properties>
+  </object>
+  <object id="382" name="116" x="6104" y="939" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[117]"/>
+    <property name="node" type="int" value="116"/>
+   </properties>
+  </object>
+  <object id="381" name="117" x="6020" y="695" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[118]"/>
+    <property name="node" type="int" value="117"/>
+   </properties>
+  </object>
+  <object id="379" name="118" x="5828" y="443" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[119]"/>
+    <property name="node" type="int" value="118"/>
+   </properties>
+  </object>
+  <object id="378" name="119" x="5512" y="255" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[120]"/>
+    <property name="node" type="int" value="119"/>
+   </properties>
+  </object>
+  <object id="377" name="120" x="5124" y="255" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[121]"/>
+    <property name="node" type="int" value="120"/>
+   </properties>
+  </object>
+  <object id="374" name="121" x="4744" y="339" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[122,123]"/>
+    <property name="node" type="int" value="121"/>
+   </properties>
+  </object>
+  <object id="372" name="122" x="4432.85" y="425.061" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[123,97,95]"/>
+    <property name="node" type="int" value="122"/>
+   </properties>
+  </object>
+  <object id="375" name="123" x="4603.76" y="624.212" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[95,94,93]"/>
+    <property name="node" type="int" value="123"/>
+   </properties>
+  </object>
+  <object id="301" name="124" x="277.091" y="4109.42" width="64" height="64">
+   <properties>
+    <property name="neighbour" value="[23,24]"/>
+    <property name="node" type="int" value="124"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" name="Colliders">
+  <object id="3" name="Poly" x="448" y="128">
+   <polygon points="0,0 -256,128 -256,0"/>
+  </object>
+  <object id="16" name="Poly" x="64" y="4288">
+   <polygon points="0,0 64,256 0,256"/>
+  </object>
+  <object id="17" name="Poly" x="128" y="4544">
+   <polygon points="0,0 64,128 0,128"/>
+  </object>
+  <object id="18" name="Poly" x="192" y="4672">
+   <polygon points="0,0 192,192 0,192"/>
+  </object>
+  <object id="19" name="Poly" x="384" y="4864">
+   <polygon points="0,0 128,64 0,64"/>
+  </object>
+  <object id="21" name="Poly" x="512" y="4928">
+   <polygon points="0,0 384,128 0,128"/>
+  </object>
+  <object id="26" name="Poly" x="192" y="256">
+   <polygon points="0,0 -64,64 -64,0"/>
+  </object>
+  <object id="27" name="Poly" x="128" y="320">
+   <polygon points="0,0 -64,192 -64,0"/>
+  </object>
+  <object id="36" name="Box" x="0" y="512" width="64" height="704"/>
+  <object id="39" name="Poly" x="64" y="1216">
+   <polygon points="0,0 64,192 64,768 0,768"/>
+  </object>
+  <object id="40" name="Poly" x="128" y="1984">
+   <polygon points="0,0 64,192 64,1024 0,1216"/>
+  </object>
+  <object id="41" name="Poly" x="128" y="3200">
+   <polygon points="0,0 0,192 -64,384 -64,0"/>
+  </object>
+  <object id="46" name="Box" x="0" y="3584" width="64" height="704"/>
+  <object id="50" name="Box" x="896" y="5056" width="576" height="64"/>
+  <object id="52" name="Poly" x="1472" y="5056">
+   <polygon points="0,0 192,-64 192,0"/>
+  </object>
+  <object id="53" name="Poly" x="1664" y="4992">
+   <polygon points="0,0 128,-128 256,-192 256,0"/>
+  </object>
+  <object id="54" name="Poly" x="1920" y="4800">
+   <polygon points="0,0 192,-64 192,0"/>
+  </object>
+  <object id="57" name="Poly" x="2112" y="4736">
+   <polygon points="0,0 128,-64 448,-64 512,0"/>
+  </object>
+  <object id="58" name="Poly" x="2624" y="4736">
+   <polygon points="0,0 384,128 0,128"/>
+  </object>
+  <object id="59" name="Poly" x="3008" y="4864">
+   <polygon points="0,0 64,0 256,64 0,64"/>
+  </object>
+  <object id="60" name="Poly" x="3264" y="4928">
+   <polygon points="0,0 192,0 384,64 0,64"/>
+  </object>
+  <object id="61" name="Poly" x="3648" y="4992">
+   <polygon points="0,0 384,0 576,64 0,64"/>
+  </object>
+  <object id="62" name="Box" x="4224" y="5056" width="768" height="64"/>
+  <object id="63" name="Poly" x="4992" y="5056">
+   <polygon points="0,0 192,-64 640,-64 640,0"/>
+  </object>
+  <object id="66" name="Poly" x="5632" y="4992">
+   <polygon points="0,0 192,-64 256,-64 256,0"/>
+  </object>
+  <object id="67" name="Poly" x="5888" y="4928">
+   <polygon points="0,0 192,-64 192,0"/>
+  </object>
+  <object id="68" name="Poly" x="6080" y="4864">
+   <polygon points="0,0 64,-64 64,0"/>
+  </object>
+  <object id="69" name="Poly" x="6144" y="4800">
+   <polygon points="0,0 128,-256 128,0"/>
+  </object>
+  <object id="70" name="Poly" x="6272" y="4544">
+   <polygon points="0,0 64,-192 64,0"/>
+  </object>
+  <object id="75" name="Box" x="6336" y="3776" width="64" height="576"/>
+  <object id="77" name="Poly" x="6336" y="3776">
+   <polygon points="0,0 -64,-192 -64,-320 0,-320"/>
+  </object>
+  <object id="78" name="Poly" x="6272" y="3456">
+   <polygon points="0,0 -128,-384 0,-384"/>
+  </object>
+  <object id="80" name="Poly" x="6144" y="3072">
+   <polygon points="0,0 -128,-128 -192,-256 0,-256"/>
+  </object>
+  <object id="82" name="Poly" x="5952" y="2816">
+   <polygon points="0,0 -256,-256 -256,-576 320,-1152"/>
+  </object>
+  <object id="84" name="Poly" x="6272" y="1664">
+   <polygon points="0,0 64,-192 64,0"/>
+  </object>
+  <object id="86" name="Box" x="6336" y="960" width="64" height="512"/>
+  <object id="91" name="Poly" x="6336" y="960">
+   <polygon points="0,0 -64,-192 -64,-256 0,-256"/>
+  </object>
+  <object id="92" name="Poly" x="6272" y="704">
+   <polygon points="0,0 -64,-192 0,-192"/>
+  </object>
+  <object id="93" name="Poly" x="6208" y="512">
+   <polygon points="0,0 -128,-256 0,-256"/>
+  </object>
+  <object id="94" name="Poly" x="6080" y="256">
+   <polygon points="0,0 -384,-128 0,-128"/>
+  </object>
+  <object id="95" name="Box" x="4992" y="64" width="704" height="64"/>
+  <object id="97" name="Poly" x="4992" y="128">
+   <polygon points="0,0 -192,64 -256,64 -256,0"/>
+  </object>
+  <object id="99" name="Poly" x="4736" y="192">
+   <polygon points="0,0 -192,64 -832,64 -832,0"/>
+  </object>
+  <object id="100" name="Poly" x="3904" y="256">
+   <polygon points="0,0 -192,64 -320,64 -320,0"/>
+  </object>
+  <object id="106" name="Poly" x="3584" y="320">
+   <polygon points="0,0 -192,64 -448,64 -576,0"/>
+  </object>
+  <object id="107" name="Poly" x="3008" y="320">
+   <polygon points="0,0 -384,-128 0,-128"/>
+  </object>
+  <object id="115" name="Poly" x="2624" y="192">
+   <polygon points="0,0 -64,0 -192,-64 0,-64"/>
+  </object>
+  <object id="120" name="Poly" x="2432" y="128">
+   <polygon points="0,0 -640,0 -832,-64 0,-64"/>
+  </object>
+  <object id="121" name="Poly" x="448" y="128">
+   <polygon points="0,0 128,0 320,-64 0,-64"/>
+  </object>
+  <object id="124" name="Box" x="768" y="0" width="832" height="64"/>
+  <object id="128" name="Poly" x="960" y="576">
+   <polygon points="0,0 -128,64 -192,128 256,704 320,576 320,64 256,0"/>
+  </object>
+  <object id="132" name="Poly" x="768" y="704">
+   <polygon points="0,0 -128,64 -192,128 -256,320 256,1024 320,960 448,576"/>
+  </object>
+  <object id="134" name="Poly" x="1024" y="1728">
+   <polygon points="0,0 -64,192 -576,-128 -576,-576 -512,-704"/>
+  </object>
+  <object id="138" name="Poly" x="896" y="2048">
+   <polygon points="0,0 64,-128 -448,-448 -384,-256"/>
+  </object>
+  <object id="139" name="Poly" x="512" y="1792">
+   <polygon points="0,0 0,448 64,704 320,448 384,256"/>
+  </object>
+  <object id="143" name="Poly" x="576" y="2496">
+   <polygon points="0,0 0,64 64,192 192,192 256,128 256,-256"/>
+  </object>
+  <object id="147" name="Poly" x="2560" y="1024">
+   <polygon points="0,0 128,-64 192,-128 192,-192 64,-320 -128,-384 -576,-384 -640,-320"/>
+  </object>
+  <object id="151" name="Poly" x="1920" y="704">
+   <polygon points="0,0 -128,256 512,448 640,320"/>
+  </object>
+  <object id="152" name="Poly" x="2432" y="1152">
+   <polygon points="0,0 -64,128 -128,192 -384,320 -832,192 -768,0 -704,-128 -640,-192"/>
+  </object>
+  <object id="153" name="Poly" x="1600" y="1344">
+   <polygon points="0,0 0,128 64,192 384,192 448,128"/>
+  </object>
+  <object id="156" name="Poly" x="704" y="3456">
+   <polygon points="0,0 -128,128 -128,256 -64,320 192,320 384,256 640,128"/>
+  </object>
+  <object id="159" name="Poly" x="1344" y="3584">
+   <polygon points="0,0 64,-64 -448,-320 -576,-256 -640,-128"/>
+  </object>
+  <object id="161" name="Poly" x="1408" y="3520">
+   <polygon points="0,0 128,-64 -384,-384 -512,-256"/>
+  </object>
+  <object id="163" name="Poly" x="1152" y="2944">
+   <polygon points="0,0 -64,64 -128,192 384,512 576,448 704,384 768,320"/>
+  </object>
+  <object id="166" name="Poly" x="2304" y="2752">
+   <polygon points="0,0 -64,192 -128,320 -256,448 -384,512 -1152,192 -1088,64 -1024,0"/>
+  </object>
+  <object id="170" name="Poly" x="1280" y="2752">
+   <polygon points="0,0 64,-192 1024,0"/>
+  </object>
+  <object id="173" name="Poly" x="1600" y="2112">
+   <polygon points="0,0 -128,64 -192,128 -256,320 -256,448 704,640 768,384 768,-192"/>
+  </object>
+  <object id="175" name="Poly" x="2368" y="1920">
+   <polygon points="0,0 -768,192 -640,128"/>
+  </object>
+  <object id="176" name="Poly" x="1728" y="2048">
+   <polygon points="0,0 640,-128 576,-192 384,-192 64,-64"/>
+  </object>
+  <object id="177" name="Poly" x="960" y="4160">
+   <polygon points="0,0 -192,64 -320,128 -384,192 -384,320 -256,448 384,448 512,384"/>
+  </object>
+  <object id="180" name="Poly" x="1600" y="4416">
+   <polygon points="0,0 -128,128 -640,-256 -384,-384 64,-384 192,-256"/>
+  </object>
+  <object id="181" name="Poly" x="1792" y="4160">
+   <polygon points="0,0 -192,256 -64,192 0,128"/>
+  </object>
+  <object id="188" name="Poly" x="2176" y="3712">
+   <polygon points="0,0 -64,64 -64,128 0,192 384,192 768,0 832,-64"/>
+  </object>
+  <object id="189" name="Poly" x="2496" y="3328">
+   <polygon points="0,0 -256,256 -320,384 512,320 704,256 832,192 896,128"/>
+  </object>
+  <object id="191" name="Poly" x="2496" y="3328">
+   <polygon points="0,0 128,-256 192,-320 1024,64 896,128"/>
+  </object>
+  <object id="193" name="Poly" x="2816" y="2752">
+   <polygon points="0,0 -64,64 -128,256 704,640 832,640 1024,576 1152,512"/>
+  </object>
+  <object id="199" name="Poly" x="2880" y="2624">
+   <polygon points="0,0 -64,128 1088,640 1152,576 1152,448 896,192 640,64"/>
+  </object>
+  <object id="200" name="Poly" x="3520" y="2688">
+   <polygon points="0,0 -384,-384 -576,-384 -576,-256"/>
+  </object>
+  <object id="203" name="Poly" x="3264" y="1088">
+   <polygon points="0,0 -64,128 -64,448 64,832 256,1024 384,1088 64,0"/>
+  </object>
+  <object id="206" name="Poly" x="4480" y="1216">
+   <polygon points="0,0 -256,-128 -512,-192 -960,-192 -1152,-128 -832,960 -768,1024 64,64"/>
+  </object>
+  <object id="209" name="Poly" x="3712" y="2240">
+   <polygon points="0,0 64,128 192,192 960,-576 960,-640 896,-832 832,-960"/>
+  </object>
+  <object id="211" name="Poly" x="4672" y="1664">
+   <polygon points="0,0 64,192 -256,1024 -768,768"/>
+  </object>
+  <object id="217" name="Poly" x="4864" y="2112">
+   <polygon points="0,0 0,-64 -64,-192 -128,-256 -448,576 -256,640"/>
+  </object>
+  <object id="218" name="Poly" x="4864" y="2112">
+   <polygon points="0,0 128,384 128,640 64,704 -192,704 -256,640"/>
+  </object>
+  <object id="219" name="Poly" x="2944" y="2432">
+   <polygon points="0,0 -64,192 576,256"/>
+  </object>
+  <object id="223" name="Poly" x="3520" y="4416">
+   <polygon points="0,0 -384,-128 -448,-192 -448,-320 -384,-384 0,-576 192,-640"/>
+  </object>
+  <object id="226" name="Poly" x="3776" y="4480">
+   <polygon points="0,0 -128,0 -256,-64 -64,-704 64,-768 256,-832"/>
+  </object>
+  <object id="227" name="Poly" x="3776" y="4480">
+   <polygon points="0,0 192,64 1024,64 1152,0 1216,-64 1216,-320 1152,-448 256,-832"/>
+  </object>
+  <object id="230" name="Poly" x="4928" y="4032">
+   <polygon points="0,0 -192,-448 -576,-512 -768,-448 -896,-384"/>
+  </object>
+  <object id="231" name="Poly" x="4352" y="3520">
+   <polygon points="0,0 64,-64 320,-64 384,64"/>
+  </object>
+  <object id="233" name="Poly" x="5568" y="3264">
+   <polygon points="0,0 -64,-64 -320,-64 -384,0 -384,256 -256,512"/>
+  </object>
+  <object id="237" name="Poly" x="5312" y="3776">
+   <polygon points="0,0 256,-512 384,-448 576,-256 640,-128 192,320 128,256 64,192"/>
+  </object>
+  <object id="238" name="Poly" x="5952" y="3648">
+   <polygon points="0,0 64,64 64,448 -128,640 -320,640 -384,576 -448,448"/>
+  </object>
+  <object id="241" name="Poly" x="5632" y="576">
+   <polygon points="0,0 -192,-64 -768,-64 -832,0 -832,128 -768,256 -704,320 128,128"/>
+  </object>
+  <object id="242" name="Poly" x="4928" y="896">
+   <polygon points="0,0 128,384 256,512 896,576 896,64 832,-192"/>
+  </object>
+  <object id="243" name="Poly" x="5184" y="1408">
+   <polygon points="0,0 64,128 256,320 320,320 448,256 640,64"/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,6 @@
+flag when disconnect???
+worst performance with more packets (update rate is too big for smaller expected time due to sdl delay in main)
+is there something wrong with lerp?
+clock sync
+sending loads of fire packets causes massive slow down
+

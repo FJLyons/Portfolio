@@ -1,0 +1,1 @@
+start /WAIT Map.tmx && stringToArray.bat

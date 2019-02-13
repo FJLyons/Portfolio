@@ -1,0 +1,10 @@
+x64/
+Argo.VC.VC.opendb
+Argo.VC.db
+Debug/
+.vs/Argo/v14/.suo
+.vs/SDL StarterKit/v14/.suo
+Dependencies/Box2D/lib/Box2D-d.pdb
+Dependencies/Box2D/lib/Box2D.pdb
+Project1.vcxproj.user
+SDL StarterKit.VC.db
